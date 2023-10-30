@@ -41,7 +41,7 @@ def get_next_states(state):
 # This function will need to call the function get_next_states(state), as well as itself
 def dfs(current_state, win_state):
     
-    if current state==win_state:
+    if current_state==win_state:
         return True
 
     next_states = get_next_states(current_state)
